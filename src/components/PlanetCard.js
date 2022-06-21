@@ -7,8 +7,8 @@ export default class PlanetCard extends Component {
 
     return (
       <div data-testid="planet-card">
-        <p>{planetName}</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <h3 data-testid="planet-name">{planetName}</h3>
+        <img src={ planetImage } alt={ `Planeta ${planetName}` } width="200px" />
       </div>
     );
   }
