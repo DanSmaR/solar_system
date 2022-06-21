@@ -1,4 +1,6 @@
 import React from 'react';
+import missions from '../data/missions';
+import MissionCard from './MissionCard';
 import Title from './Title';
 
 export default class Missions extends React.Component {
@@ -6,6 +8,19 @@ export default class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
+        <div className="mission-cards">
+          {
+            missions.map(({ name, year, country, destination }) => (
+              <MissionCard
+                key={ name }
+                name={ name }
+                year={ year }
+                country={ country }
+                destination={ destination }
+              />
+            ))
+          }
+        </div>
       </div>
     );
   }
