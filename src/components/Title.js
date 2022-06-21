@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 export default class Title extends Component {
   render() {
-    const { headLine } = this.props;
-    return <h2>{headLine}</h2>;
+    const { headline } = this.props;
+    return <h2>{headline}</h2>;
   }
 }
 
