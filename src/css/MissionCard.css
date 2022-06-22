@@ -2,6 +2,12 @@
   display: grid;
   grid-template-rows: min-content 1fr;
   text-align: left;
+  transition: all ease-in-out 0.3s;
+}
+
+.mission-card:hover {
+  box-shadow: 10px 1px 51px 9px rgba(242, 240, 240, 0.75);
+  transform: scale(1.1);
 }
 
 .mission-card__title {

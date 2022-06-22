@@ -9,7 +9,7 @@
 .card__image {
   align-self: center;
   justify-self: center;
-  transition: ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
   width: 100%;
 }
 
