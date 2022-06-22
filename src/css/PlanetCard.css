@@ -1,6 +1,8 @@
 .card {
   display: grid;
   grid-template-rows: 1fr min-content;
+  font-size: clamp(
+    8px, calc(0.5rem + (18 - 8) * ((100vw - 400px) / (1920 - 400))), 18px);
 }
 
 .card__image {
