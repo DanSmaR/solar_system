@@ -1,0 +1,75 @@
+.card {
+  display: grid;
+  grid-template-rows: 1fr min-content;
+}
+
+.card__image {
+  width: 100%;
+  transition: ease-in-out 0.2s;
+  align-self: center;
+  justify-self: center;
+}
+
+.card__image--Saturno {
+  width: 100%;
+}
+
+.card:hover .card__image--Saturno {
+  transform: scale(1.01);
+}
+
+.card__image--Júpiter {
+  width: 96.31%;
+}
+
+.card:hover .card__image--Júpiter {
+  transform: scale(1.04);
+}
+
+.card__image--Urano {
+  width: 50.99%;
+}
+
+.card:hover .card__image--Urano {
+  transform: scale(1.96);
+}
+
+.card__image--Netuno {
+  width: 50.99%;
+}
+
+.card:hover .card__image--Netuno {
+  transform: scale(1.96);
+}
+
+.card__image--Marte {
+  width: 23.37%;
+}
+
+.card:hover .card__image--Marte {
+  transform: scale(4.27);
+}
+
+.card__image--Terra {
+  width: 37.53%;
+}
+
+.card:hover .card__image--Terra {
+  transform: scale(2.66);
+}
+
+.card__image--Vênus {
+  width: 36.11%;
+}
+
+.card:hover .card__image--Vênus {
+  transform: scale(2.77);
+}
+
+.card__image--Mercúrio {
+  width: 14.52%;
+}
+
+.card:hover .card__image--Mercúrio {
+  transform: scale(6.89);
+}
