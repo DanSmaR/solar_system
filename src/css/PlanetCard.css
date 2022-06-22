@@ -1,10 +1,9 @@
 .card {
-  display: grid;
-  grid-template-rows: 1fr min-content;
 
   /* https://websemantics.uk/tools/responsive-font-calculator/ */
-  font-size: clamp(
-    8px, calc(0.5rem + (18 - 8) * ((100vw - 400px) / (1920 - 400))), 18px);
+  font-size: clamp(8px, calc(0.5rem + (18 - 8) * ((100vw - 400px) / (1920 - 400))), 18px);
+  grid-template-rows: 1fr min-content;
+  display: grid;
 }
 
 .card__image {

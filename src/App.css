@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   background-color: rgb(175, 174, 174);
   background-image: url('./images/background.png');
-  font-family: Epilogue, sans-serif;
+  font-family: Epilogue , sans-serif;
   color: beige;
   line-height: 1.5;
 }
