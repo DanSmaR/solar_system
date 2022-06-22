@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../css/MissionCard.css'
+import '../css/MissionCard.css';
 
 class MissionCard extends Component {
   render() {
