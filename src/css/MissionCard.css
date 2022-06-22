@@ -5,13 +5,13 @@
 }
 
 .mission-card__title {
-  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   border-radius: 10px 10px 0 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  margin: 0;
   padding: 0.4em;
   padding-left: 15%;
-  margin: 0;
 }
 
 .mission-card > * {
@@ -19,9 +19,9 @@
 }
 
 .mission-card__content {
-  line-height: 1.2;
   align-self: stretch;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   border-radius: 0 0 10px 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 1.2;
 }
