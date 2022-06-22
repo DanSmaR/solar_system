@@ -1,3 +1,10 @@
+body {
+  background-color: rgb(175, 174, 174);
+  background-image: url(./images/background.png);
+  font-family: 'Epilogue', sans-serif;
+  color: beige;
+}
+
 .wrapper {
   text-align: center;
   width: 80%;

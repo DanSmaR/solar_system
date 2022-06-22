@@ -1,0 +1,19 @@
+/* stylelint-disable no-missing-end-of-source-newline */
+.mission-card {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 1em;
+  background-color: rgba(0 ,0, 0, 0.5);
+}
+
+.mission-card > * {
+  padding-left: 15%;
+}
+
+.mission-card__content {
+  align-self: center;
+  border: 1px solid white;
+  border-radius: 0 0 1em 1em;
+}
